@@ -1,7 +1,7 @@
 # Banco de Dados MySQL - Repositório de Códigos
 
 ## Descrição
-Bem-vindo ao repositório de códigos de banco de dados MySQL! Este repositório é uma coleção de scripts e consultas SQL para ajudá-lo a aprender, praticar e resolver problemas relacionados ao MySQL. Se você está começando com o MySQL ou é um profissional experiente em busca de soluções específicas, você encontrará uma variedade de exemplos e recursos aqui.
+Bem-vindo ao repositório de códigos de banco de dados MySQL! Este repositório é uma coleção de scripts e consultas SQL para ajudá-lo a aprender, praticar e resolver problemas relacionados ao MySQL. Se você está começando com o MySQL, você encontrará uma variedade de exemplos e recursos aqui.
 
 ## Estrutura do Repositório
 O repositório está estruturado da seguinte forma:
