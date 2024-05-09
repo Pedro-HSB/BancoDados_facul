@@ -47,6 +47,10 @@ BEGIN
     END IF;
 END //
 
+DELIMITER ;
+
+DELIMITER //
+
 ALTER TRIGGER tr_AtualizaEstoque_I AFTER INSERT ON Movimentacao
 FOR EACH ROW
 BEGIN
@@ -62,6 +66,7 @@ BEGIN
         INSERT INTO Log_Trigger (NomeTrigger, Mensagem) VALUES ('tr_AtualizaPrecoUnit_I', 'Trigger acionada para inserção de nova movimentação (atualização do preço máximo).');
     END IF;
 END //
+DELIMITER ;
 
 DELIMITER //
 
@@ -80,7 +85,6 @@ BEGIN
 END //
 
 DELIMITER ;
-
 
 DELIMITER //
 
@@ -105,7 +109,6 @@ BEGIN
 END //
 
 DELIMITER ;
-
 
 INSERT INTO Produto (NomeProduto, QtdeProduto, PrecoUnitMinProduto, PrecoUnitMaxProduto)
 VALUES 
